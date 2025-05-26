@@ -1,0 +1,30 @@
+{
+  "name": "password-manager-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для управления паролями",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "password",
+    "manager"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "generate-password": "^1.7.0",
+    "node-schedule": "^2.1.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
