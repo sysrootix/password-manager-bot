@@ -1,0 +1,26 @@
+# 📦 Node.js
+node_modules/
+package-lock.json
+
+# 🔐 Конфигурация и секреты
+.env
+config/*.local.js
+config/*.env.js
+config/*.secret.js
+
+# 🧠 Базы данных и бэкапы
+db/
+backups/
+
+# 🛠 PM2 / прод-конфигурации
+ecosystem.config.js
+
+# 🗃 Git-метаданные
+.git/
+*.log
+logs/
+
+# 🖥 Системные файлы
+.DS_Store
+Thumbs.db
+
